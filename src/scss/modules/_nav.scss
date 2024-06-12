@@ -1,0 +1,44 @@
+.nav-logo-small {
+  width: 206px;
+  height: 37.96px;
+  flex-shrink: 0;
+}
+
+.nav-text img {
+  width: 29px;
+  height: 31.662px;
+  flex-shrink: 0;
+}
+
+.nav-text {
+  display: flex;
+  gap: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: var(--BROWN, #410902);
+  font-family: "Gyst Variable";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  justify-content: center;
+  padding-top: 8px;
+  margin-left: 70px;
+}
+
+.language {
+  color: var(--BROWN, #410902);
+  font-family: "Gyst Variable";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 23px 0 20px 0;
+}

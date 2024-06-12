@@ -1,0 +1,44 @@
+.header-bottles img {
+  width: auto;
+  padding-top: 32px;
+  padding-left: 28px;
+  padding-right: 42px;
+}
+
+.header-bottles {
+  border-left: 3px solid #410902;
+  border-right: 3px solid #410902;
+  margin-top: 5px;
+}
+
+.header-title-decoration {
+  color: var(--BROWN, #410902);
+  font-family: "Gyst Variable";
+  font-size: 49.16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  display: flex;
+  padding: 32px 32px 0 32px;
+}
+
+.header-title-simple {
+  color: var(--BROWN, #410902);
+
+  /* text-simple-h */
+  font-family: "Be Vietnam Pro";
+  font-size: 49.16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  display: flex;
+}
+
+.header-sun {
+  width: 732px;
+  height: 241px;
+  flex-shrink: 0;
+  padding-top: 30px;
+}
