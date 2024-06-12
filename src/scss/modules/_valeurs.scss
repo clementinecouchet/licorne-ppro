@@ -1,0 +1,80 @@
+.valeurs-title {
+  color: var(--BROWN, #410902);
+
+  /* text-stylisé-h */
+  font-family: "Gyst Variable";
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 19px;
+  padding-bottom: 19px;
+}
+
+.valeurs-pic {
+  width: fit-content;
+  width: 657.379px;
+  height: 575px;
+  flex-shrink: 0;
+}
+
+.valeurs {
+  display: flex;
+}
+
+.valeurs-beer-sun {
+  border-right: 3px solid #410902;
+  padding-bottom: 35px;
+  padding-top: 5px;
+}
+
+.valeurs-explication {
+  padding-left: 31px;
+}
+
+h3 {
+  font-family: "Be Vietnam Pro";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.valeurs-orange {
+  color: var(--ORANGE, #f18821);
+}
+
+.valeurs-pink {
+  color: var(--PINK, #d70558);
+}
+
+.valeurs-green {
+  color: var(--GREEN, #7cb829);
+}
+
+.valeurs-text {
+  color: var(--BROWN, #410902);
+  font-family: "Be Vietnam Pro";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.valeurs-explication {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 38px;
+  padding-top: 65px;
+}
+
+.valeurs-sncd-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
