@@ -13,17 +13,23 @@
 //   margin: 50px;
 // }
 
-hr {
+.header-under {
   border-bottom: 3px solid var(--BROWN, #410902);
   border-top: none;
   border-left: none;
   border-right: none;
-}
-
-.header-under {
   margin: 0;
 }
 
 .header-up {
+  border-bottom: 3px solid var(--BROWN, #410902);
+  border-top: none;
+  border-left: none;
+  border-right: none;
   margin: -8px;
+}
+
+.newsletter-hr {
+  border-top: 0.5px solid var(--BROWN, #410902);
+  border-bottom: 0.5px solid var(--BROWN, #410902);
 }

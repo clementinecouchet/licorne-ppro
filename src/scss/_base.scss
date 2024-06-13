@@ -17,6 +17,7 @@
 
 html {
   font-size: 16px;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -48,4 +49,9 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: middle;
+}
+
+footer {
+  margin: 0;
+  padding: 0;
 }

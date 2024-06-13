@@ -30,11 +30,21 @@
               </div>
               <div class="col-10">
                 <div class="nav-text">
-                  <p class="nav-line">nos bières</p>
-                  <p class="nav-line">notre histoire</p>
-                  <p class="nav-line">shop</p>
-                  <p class="nav-line">points de vente</p>
-                  <p class="nav-line">contact</p>
+                  <a href="#reimagine">
+                    <span class="nav-line nav-text">nos bières</span></a
+                  >
+                  <a href="#history">
+                    <span class="nav-line nav-text">notre histoire</span></a
+                  >
+                  <a href="#shop">
+                    <span class="nav-line nav-text">shop</span></a
+                  >
+                  <a href="#place">
+                    <span class="nav-line nav-text">points de vente</span></a
+                  >
+                  <a href="#contact">
+                    <span class="nav-line nav-text">contact</span></a
+                  >
                   <img src="../img/bag-shop.png" alt="panier" />
                   <img src="../img/person.png" alt="icone compte" />
                   <p class="language">fr</p>
@@ -56,7 +66,7 @@
               />
             </div>
           </div>
-          <div class="col-7">
+          <div class="col-5">
             <div class="header-title">
               <div class="header-title-decoration">
                 <p>
@@ -94,7 +104,7 @@
           </div>
         </div>
       </div>
-      <hr class="header-under" />
+      <hr id="history" class="header-under" />
       <div class="container">
         <div class="row">
           <div class="about-us">
@@ -146,7 +156,7 @@
           </div>
         </div>
       </div>
-      <hr class="header-under" />
+      <hr id="love-beer" class="header-under" />
       <div class="container">
         <div class="row">
           <div class="col-12">
@@ -208,7 +218,9 @@
         <div class="row">
           <div class="col-9">
             <div class="shop-beer-text">
-              <h3 class="shop-title-beer-text">les bières, réimaginées.</h3>
+              <h3 id="reimagine" class="shop-title-beer-text">
+                les bières, réimaginées.
+              </h3>
               <p class="shop-beer-text">
                 Découvrez notre nouvelle gamme de bières sans alcool, parfaite
                 pour savourer les saveurs authentiques sans les effets de
@@ -274,7 +286,7 @@
           </div>
         </div>
       </div>
-      <hr class="header-under" />
+      <hr id="shop" class="header-under" />
       <div class="container-fluid">
         <div class="row">
           <div class="col-6">
@@ -382,7 +394,7 @@
           <div class="find-us">
             <div class="col-6 offset-6">
               <div class="col-8 offset-1">
-                <h2 class="find-us-title">où nous trouver ?</h2>
+                <h2 id="place" class="find-us-title">où nous trouver ?</h2>
                 <p class="find-us-text">
                   Découvrez nos trois produits prodigieux disponibles dans
                   divers points de vente. Nous vous invitons également à visiter
@@ -433,26 +445,101 @@
       </div>
     </main>
     <footer>
+      <hr id="contact" class="newsletter-hr" />
       <div class="container">
         <div class="row">
           <div class="col-12">
             <div class="newsletter">
               <form class="inscription">
-                <div class="button-code">
-                  <div class="textfield">
-                    <input
-                      type="code"
-                      id="code"
-                      name="code"
-                      class="code-input"
-                      placeholder="code à 8 chiffres"
-                    />
-                    <label for="code" class="code-label">
-                      charger mon défi
-                    </label>
-                  </div>
+                <div class="textfield">
+                  <input
+                    type="code"
+                    id="code"
+                    name="code"
+                    class="code-input"
+                    placeholder="email"
+                  />
+                  <label for="code" class="code-label">
+                    rejoignez la communauté et obtenez 15%
+                  </label>
                 </div>
               </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="newsletter-hr" />
+      <div class="container">
+        <div class="row">
+          <div class="col-8 offset-4">
+            <div class="footer-add-us">
+              <p>Suivez-nous sur nos réseaux sociaux</p>
+              <a href="https://www.tiktok.com/">
+                <img
+                  src="../img/tiktok-icon.png"
+                  alt="tiktok"
+                  class="footer-contact-icon"
+                />
+              </a>
+              <a href="https://www.instagram.com/">
+                <img
+                  src="../img/instagram-icon.png"
+                  alt="insta"
+                  class="footer-contact-icon footer-contact-icon-insta"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="col-12">
+            <img src="../img/sun-footer.png" alt="soleils" class="footer-sun" />
+          </div>
+          <div class="col-12">
+            <div class="footer-infos">
+              <div class="footer-contact-title">
+                <p>Licorne</p>
+                <p>Sylvain Megroni</p>
+                <a
+                  href="https://www.google.com/maps/place/Chem.+du+Lac+2,+1473+Font/@46.8376871,6.8160611,17z/data=!3m1!4b1!4m6!3m5!1s0x478dd93d3c9333d9:0x1172692964bda7e4!8m2!3d46.8376835!4d6.818636!16s%2Fg%2F11g4hxj84s?entry=ttu"
+                >
+                  <p>Chemin du Lac 2</p>
+                  <p>CH-1470 Estavayer-Le-Lac</p>
+                </a>
+              </div>
+              <div class="footer-contact">
+                <p class="footer-contact-title">shop</p>
+                <div class="footer-contact-text">
+                  <a href="#reimagine"> nos bières</a>
+                  <a href="#place"> points de vente </a>
+                  <a href="#shop"> points de vente </a>
+                  <a href="#love-beer"> comprendre notre passion </a>
+                </div>
+              </div>
+              <div class="footer-contact">
+                <p class="footer-contact-title">aide</p>
+                <div class="footer-contact-text">
+                  <a href="https://www.google.com/"
+                    >Politique de confidentialité</a
+                  >
+                  <a href="https://www.google.com/"
+                    >Conditions générales de vente</a
+                  >
+                </div>
+              </div>
+              <div class="footer-contact">
+                <p class="footer-contact-title">contact</p>
+                <div class="footer-contact-text">
+                  <a href="@brasserie-licorne">@brasserie-licorne</a>
+                  <a href="mailto:@brasserie-licorne@gmail.com"
+                    >@brasserie-licorne@gmail.com</a
+                  >
+                  <a href="tel:0219480062">021 948 00 62</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="footer-contact-title footer-rights">
+              <p>© 2024 Licorne. Tous droits réservés.</p>
             </div>
           </div>
         </div>

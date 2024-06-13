@@ -1,17 +1,12 @@
 .nav-logo-small {
-  width: 206px;
-  height: 37.96px;
-  flex-shrink: 0;
+  width: auto;
 }
 
 .nav-text img {
-  width: 29px;
-  height: 31.662px;
-  flex-shrink: 0;
+  width: 3%;
 }
 
 .nav-text {
-  display: flex;
   gap: 25px;
   display: flex;
   flex-direction: row;
@@ -24,8 +19,6 @@
   line-height: normal;
   text-transform: uppercase;
   justify-content: center;
-  padding-top: 8px;
-  margin-left: 70px;
 }
 
 .language {

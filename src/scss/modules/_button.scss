@@ -14,11 +14,13 @@
   text-transform: uppercase;
 
   height: 50;
+  transition-duration: 0.3s;
 }
 
 .button-header {
   margin-left: -130px;
   margin-top: 220px;
+  transition-duration: 0.3s;
 }
 
 .button-add {
@@ -34,6 +36,7 @@
   border: 1px solid var(--BROWN, #410902);
   max-width: 230;
   max-height: 70;
+  transition-duration: 0.3s;
 }
 
 .button-go {
@@ -53,4 +56,13 @@
   line-height: normal;
   text-transform: uppercase;
   margin-top: 20px;
+}
+
+.button-add:hover,
+.button-go:hover,
+.button-header:hover,
+.button-section-shop:hover,
+.button-shop:hover {
+  background-color: #410902;
+  color: white;
 }
