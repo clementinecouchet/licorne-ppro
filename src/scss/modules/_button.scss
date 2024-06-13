@@ -12,11 +12,45 @@
   font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
-  text-decoration: none;
+
   height: 50;
 }
 
 .button-header {
   margin-left: -130px;
   margin-top: 220px;
+}
+
+.button-add {
+  padding: 12px;
+  color: var(--BROWN, #410902);
+  text-align: center;
+  font-family: "Be Vietnam Pro";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  border: 1px solid var(--BROWN, #410902);
+  max-width: 230;
+  max-height: 70;
+}
+
+.button-go {
+  display: inline-flex;
+  padding: 12px 17px;
+  justify-content: center;
+  align-items: center;
+  gap: -7px;
+  border: 1px solid var(--BROWN, #410902);
+  color: var(--BROWN, #410902);
+
+  /* text-button */
+  font-family: "Be Vietnam Pro";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-top: 20px;
 }

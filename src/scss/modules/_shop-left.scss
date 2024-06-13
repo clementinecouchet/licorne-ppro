@@ -1,0 +1,84 @@
+.shop-title-beer-text {
+  color: var(--BROWN, #410902);
+
+  /* text-stylisé-h */
+  font-family: "Gyst Variable";
+  font-size: 49.16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  padding-top: 19px;
+  padding-bottom: 19px;
+}
+
+.shop-beer-text {
+  color: var(--BROWN, #410902);
+  padding-bottom: 19px;
+  font-family: "Be Vietnam Pro";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  flex-direction: column;
+}
+
+.shop-beer {
+  width: 550;
+  border-right: 3px solid #410902;
+  padding-bottom: 30px;
+}
+
+.shop {
+  display: flex;
+}
+
+.shop-explication {
+  display: flex;
+  flex-direction: column;
+  width: 379px;
+  height: 414px;
+  gap: 17px;
+  flex-shrink: 0;
+  padding: 90px 0;
+}
+
+.shop-text-cap {
+  display: flex;
+}
+
+h4 {
+  font-family: "Gyst Variable";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.shop-text {
+  color: var(--BROWN, #410902);
+  font-family: "Be Vietnam Pro";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.shop-price {
+  color: var(--BROWN, #410902);
+  font-family: "Be Vietnam Pro";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.shop-icon {
+  width: 202.753px;
+}
+
+.shop-cap {
+  padding-top: 10%;
+}

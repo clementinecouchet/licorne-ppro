@@ -1,0 +1,65 @@
+.find-us {
+  background-image: url(../../img/bg-find-us.png);
+  background-size: cover;
+  width: 1539px;
+  height: 700px;
+  flex-shrink: 0;
+}
+
+.find-us-img {
+  width: 1539px;
+  height: 700px;
+  flex-shrink: 0;
+}
+
+.find-us-title {
+  color: var(--BROWN, #410902);
+  font-family: "Gyst Variable";
+  font-size: 49.16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  padding-top: 130px;
+}
+
+.find-us-text {
+  color: var(--BROWN, #410902);
+
+  /* text-simple-text */
+  font-family: "Be Vietnam Pro";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-top: 14px;
+}
+
+.find-us-icon {
+  width: 60px;
+  height: 50px;
+  margin-right: 50px;
+}
+
+.find-us-link-text {
+  color: var(--BROWN, #410902);
+  font-family: "Be Vietnam Pro";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  gap: 20px;
+  display: flex;
+}
+
+.find-us-link {
+  display: flex;
+  flex-direction: row;
+  margin-top: 46px;
+}
+
+.place {
+  padding-top: 10px;
+}
