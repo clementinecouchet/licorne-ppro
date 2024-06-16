@@ -21,6 +21,10 @@
   justify-content: center;
 }
 
+.nav-text:hover {
+  color: #a18e8b;
+}
+
 .language {
   color: var(--BROWN, #410902);
   font-family: "Gyst Variable";
@@ -34,4 +38,37 @@
   display: flex;
   justify-content: space-between;
   padding: 23px 0 20px 0;
+}
+
+.nav-laguage-number:hover {
+  color: #a18e8b;
+}
+
+.nav-classes-select {
+  position: relative;
+}
+
+.nav-classes-select .nav-classes-menu {
+  position: absolute;
+  top: -2;
+  left: -2;
+  opacity: 0;
+  z-index: 4;
+  pointer-events: none;
+}
+
+.nav-classes-select:hover .nav-classes-menu {
+  opacity: 1;
+  pointer-events: all;
+  height: auto;
+}
+
+.nav-classes-menu {
+  background: #410902;
+  color: white;
+  flex-direction: column;
+  padding: 10px;
+  overflow: hidden;
+  height: 0;
+  transition: all 120ms ease-out;
 }

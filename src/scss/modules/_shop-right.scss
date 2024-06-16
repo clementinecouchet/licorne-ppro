@@ -2,37 +2,3 @@
   width: 550;
   border-left: 3px solid #410902;
 }
-
-.inscription {
-  padding: 12px;
-}
-
-.code-label {
-  color: var(--BROWN, #410902);
-  text-align: end;
-  justify-content: flex-end;
-  font-family: "Be Vietnam Pro";
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  text-transform: uppercase;
-}
-
-.textfield input {
-  color: var(--brown-60, rgba(65, 9, 2, 0.6));
-
-  font-family: "Gyst Variable";
-  font-size: 28px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  text-transform: uppercase;
-  border: none;
-}
-
-.textfield {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-}
