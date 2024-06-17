@@ -34,3 +34,30 @@
   padding-top: 15px;
   padding-bottom: 15px;
 }
+
+.txt {
+  animation: Scroll 50s linear infinite;
+  width: 1202px;
+  height: 221.495px;
+  flex-shrink: 0;
+  margin: 44px 0 44px 100;
+}
+
+.slider .txt {
+  animation-duration: infinite;
+}
+
+@keyframes Scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-550%);
+  }
+}
+
+.slider {
+  display: flex;
+  align-items: center;
+  width: auto;
+}

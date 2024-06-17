@@ -84,3 +84,17 @@ h4 {
   padding-top: 10%;
   margin-left: -20px;
 }
+
+.beer-shop {
+  transition-duration: 0.5s;
+}
+
+.shop-beer,
+.shop-beer-r {
+  transition-duration: 0.5s;
+}
+
+.shop-beer:hover .beer-shop,
+.shop-beer-r:hover .beer-shop {
+  scale: (1.1);
+}

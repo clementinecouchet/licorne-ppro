@@ -18,6 +18,7 @@
   width: 657.379px;
   height: 575px;
   flex-shrink: 0;
+  transition-duration: 0.5s;
 }
 
 .valeurs {
@@ -28,10 +29,7 @@
   border-right: 3px solid #410902;
   padding-bottom: 35px;
   padding-top: 5px;
-}
-
-.valeurs-explication {
-  padding-left: 31px;
+  transition-duration: 0.5s;
 }
 
 h3 {
@@ -71,6 +69,13 @@ h3 {
   justify-content: space-between;
   gap: 38px;
   padding-top: 65px;
+  padding-left: 31px;
+}
+
+.valeurs-green,
+.valeurs-pink,
+.valeurs-orange {
+  transition-duration: 0.5s;
 }
 
 .valeurs-sncd-title {
@@ -78,4 +83,11 @@ h3 {
   flex-direction: column;
   justify-content: space-between;
   gap: 10px;
+  transition-duration: 0.5s;
+}
+
+.valeurs-sncd-title:hover .valeurs-pink,
+.valeurs-sncd-title:hover .valeurs-green,
+.valeurs-sncd-title:hover .valeurs-orange {
+  scale: (1.1);
 }

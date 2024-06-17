@@ -41,3 +41,15 @@
   padding-top: 30px;
   padding-left: 20px;
 }
+
+.header-bottles {
+  transition-duration: 0.5s;
+}
+
+.header-beer {
+  transition-duration: 0.5s;
+}
+
+.header-bottles:hover .header-beer {
+  scale: (1.1);
+}
