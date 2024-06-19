@@ -1,0 +1,68 @@
+nav,
+.nav-text,
+.nav-classes-select,
+.header-title-decoration,
+.reimagine,
+h4,
+.find-us-title,
+.find-us-gyst,
+.shop-title-beer-text {
+  line-height: 1.25;
+  font-family: "gyst-variable", sans-serif;
+  font-variation-settings: "wght" 400;
+}
+
+.valeurs-title {
+  line-height: 1.25;
+  font-family: "gyst-variable", sans-serif;
+  font-variation-settings: "wght" 200;
+}
+
+.button-add,
+.button-go,
+.button-header,
+.button-section-shop,
+.button-shop {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header-title-simple,
+.about-us-text,
+.valeurs-explication,
+.shop-beer-text,
+.shop-text,
+.shop-price,
+.find-us-text,
+.find-us-link-text,
+.code-label,
+.footer-add-us,
+.footer-infos,
+.footer-contact-title,
+.footer-contact-text a,
+.footer-rights,
+.valeurs-title-gyst,
+.valeurs-text,
+.shop-beer-text,
+.find-us-font a,
+.textfield label,
+.footer-font,
+.footer-rights-font {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.find-us-font .find-us-link-text {
+  text-decoration: underline;
+}
